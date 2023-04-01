@@ -1,0 +1,91 @@
+
+*{margin: 0;
+    padding: 0;
+    }
+    .container{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 15px 30px;font-size: 18ppx;
+    background-color: whitesmoke;
+width: 100%;}
+    h1{ width: 80% ;height: 100px; text-align: center;}
+h2{ width: 80%; height: 50px; text-align: center;}
+p{
+margin: 5px;}
+.main_heading{
+    background-color: brown;
+    color: white;
+    width: 100%;
+    height: 60px;
+    font-size: 50px;
+    border-radius: 10px;
+}
+.second_heading{
+    margin: 10px 0px;
+    padding:  5px 0px;
+    background-color: peru;
+    color: white;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px; 
+}
+
+p{border-radius: 10px;border-color: black; text-align:start;}
+
+ /* using pseudo selectors*/input[ type="text"],
+input[ type="email"],
+input[ type="number"],
+input[ type="password"],
+input[ type="date"],
+input[ type="file"],
+input[ type="text"],
+select,
+textarea{
+    text-overflow:hide;
+    text-align: left;
+    height: 30px;
+    background-color: white; 
+width: 50%;
+margin: 10px;
+border: 1px solid black;
+border-radius: 5px; margin: 10px;}
+input[type="submit"]{
+      background-color: chartreuse;
+   color: white;
+   padding: 12px 20px;
+   border: 2px solid black;
+   width: 30%;
+border-radius: 10px;}
+
+   input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: blue;
+   }
+input[type="reset"]{
+      background-color: chartreuse;
+   color: white;
+   padding: 12px 20px;
+   border: 2px solid black;
+   width: 10%;
+border-radius: 10px;}
+  
+  
+   input[type="reset"]:hover{
+    cursor: pointer;
+    background-color: blue;
+   
+   }
+   #fieldset{
+    height: 50px;
+    background-color: white; 
+width: 80%;
+margin: 10px;
+border: 1px solid black;
+border-radius: 5px; margin: 10px;
+   }
+   .back{
+    text-decoration: none;
+    background-color:skyblue;
+    color: white;
+    margin: 5px;
+   }
+
